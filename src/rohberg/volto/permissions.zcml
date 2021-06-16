@@ -6,6 +6,10 @@
   <configure zcml:condition="installed AccessControl.security">
   <!-- -*- extra stuff goes here -*- -->
 
+    <permission
+        id="rohberg.igib.SiteAdminStuff"
+        title="rohberg.igib: Manage SiteAdmin stuff"
+    />
 
   </configure>
 
