@@ -28,12 +28,14 @@
 rohberg.volto
 =============
 
-Tell me what your product does
+some tweaks to make Plone backend fit for use with Volto frontend
 
 Features
 --------
 
-- Can be bullet points
+- KeywordsVocabulary
+- permission to give access to SiteAdmin rohberg.igib.SiteAdminStuff
+- 
 
 
 Examples
