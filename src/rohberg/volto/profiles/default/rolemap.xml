@@ -2,7 +2,7 @@
 <rolemap>
   <permissions>
   <!-- -*- extra stuff goes here -*- -->
-    <permission name="rohberg.igib: Manage SiteAdmin stuff" acquire="True">
+    <permission name="rohberg.volto: Manage SiteAdmin stuff" acquire="True">
       <role name="Manager"/>
       <role name="Site Administrator"/>
     </permission>

@@ -34,7 +34,7 @@ Features
 --------
 
 - KeywordsVocabulary
-- permission to give access to SiteAdmin rohberg.igib.SiteAdminStuff
+- permission to give access to SiteAdmin rohberg.volto.SiteAdminStuff
 - 
 
 

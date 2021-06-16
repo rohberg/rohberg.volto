@@ -7,8 +7,8 @@
   <!-- -*- extra stuff goes here -*- -->
 
     <permission
-        id="rohberg.igib.SiteAdminStuff"
-        title="rohberg.igib: Manage SiteAdmin stuff"
+        id="rohberg.volto.SiteAdminStuff"
+        title="rohberg.volto: Manage SiteAdmin stuff"
     />
 
   </configure>
