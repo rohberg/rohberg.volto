@@ -107,7 +107,7 @@ class KeywordsVocabulary(object):
         return safe_simplevocabulary_from_values(result)
 
     def __call__(self, context, query=None):
-        logger.info("** rohberg.volto custom KeywordsVocabulary")
+        # logger.info("** rohberg.volto custom KeywordsVocabulary")
         section = self.section(context)
         if section is None:
             return self.all_keywords(query)
