@@ -18,4 +18,12 @@
       directory="static"
       />
 
+  <browser:page
+      name="pdb"
+      for="*"
+      class=".views.PDBView"
+      permission="cmf.ManagePortal"
+      layer="rohberg.volto.interfaces.IRohbergVoltoLayer"
+      />
+
 </configure>
