@@ -1,3 +1,5 @@
+from importlib import import_module
+
 from Products.Five import BrowserView
 import logging
 
@@ -9,6 +11,13 @@ class PDBView(BrowserView):
         context = self.context
         ctx = context.aq_base
 
-        import pdb; pdb.set_trace()
+        PLONE_6 = getattr(
+            import_module("Products.CMFPlone.factory"), "PLONE60MARKER", False
+        )
+        print("PLONE_6", PLONE_6)
 
-        return 'pdb view done.'
+        import pdb
+
+        pdb.set_trace()
+
+        return "pdb view done."
