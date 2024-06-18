@@ -8,4 +8,4 @@ Features
 --------
 
 - permission to give access to SiteAdmin rohberg.volto.SiteAdminStuff
-- 
+- Volto testing profiles monolingual and multilingual

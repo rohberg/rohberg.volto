@@ -66,6 +66,8 @@ setup(
             "plone.testing>=5.0.0",
             "plone.app.contenttypes",
             "plone.app.robotframework[debug]",
+            "plone.volto",
+            "plone.app.multilingual"
         ],
     },
     entry_points="""
