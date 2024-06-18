@@ -3,6 +3,5 @@
   <dependencies>
     <dependency>profile-plone.volto:default</dependency>
     <dependency>profile-plone.app.multilingual:default</dependency>
-    <dependency>profile-collective.elastic.plone:default</dependency>
   </dependencies>
 </metadata>
